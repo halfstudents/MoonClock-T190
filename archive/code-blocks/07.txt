@@ -1,0 +1,10 @@
+unsigned long lastStarUpdate = 0;
+unsigned long lastOrbitUpdate = 0;
+
+int orbitAngle = 0;
+bool starsBright = false;
+
+// Moon centre and radius from the existing display
+const int MOON_X = 85;
+const int MOON_Y = 143;
+const int MOON_R = 43;

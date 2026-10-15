@@ -1,0 +1,23 @@
+void loop() {
+  static unsigned long lastDraw = 0;
+
+  unsigned long nowMs = millis();
+
+  // Refresh the main clock and lunar information
+  // once per minute to avoid screen flicker.
+  if (nowMs - lastDraw >= 60000 ||
+      lastDraw == 0) {
+    lastDraw = nowMs;
+
+    time_t now = time(nullptr);
+
+    if (now > 1700000000) {
+      drawClock(now);
+    }
+  }
+
+  // Animate stars and the orbiting indicator
+  animateMoonClock();
+
+  delay(10);
+}

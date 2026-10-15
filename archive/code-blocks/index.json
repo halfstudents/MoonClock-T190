@@ -1,0 +1,86 @@
+[
+  {
+    "file": "archive/code-blocks/01.txt",
+    "messages": [
+      22
+    ],
+    "sha256": "0796d1758ea17cd8605550dbcef34fca9fff45125880dfa468e20e06c4cb2dc8",
+    "complete_sketch": true
+  },
+  {
+    "file": "archive/code-blocks/02.txt",
+    "messages": [
+      44
+    ],
+    "sha256": "4dd9095fad72d5191e7b11074e89a451aef2b96a431c850d9a368cb0acabcd1a",
+    "complete_sketch": true
+  },
+  {
+    "file": "archive/code-blocks/03.txt",
+    "messages": [
+      53
+    ],
+    "sha256": "21c23098a639b8c4567389951a8fed17fe48836cc584e7bdf6cc782f90052dd6",
+    "complete_sketch": true
+  },
+  {
+    "file": "archive/code-blocks/04.txt",
+    "messages": [
+      76,
+      77
+    ],
+    "sha256": "041cc3fdffbbf7c1d72af717374250f5cee8d8ede5fbeaa5d43ea1b9d58e939b",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/05.txt",
+    "messages": [
+      82
+    ],
+    "sha256": "ddc5e2dbfb4ba85f18b35923c03a564c048141f29092fd9256484eaaacb58699",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/06.txt",
+    "messages": [
+      82
+    ],
+    "sha256": "c7be93fd32254d91f9974404670556962ee56441ab8f08278b6444cefbdaee02",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/07.txt",
+    "messages": [
+      90,
+      91
+    ],
+    "sha256": "b42bbf2cf51240feb2a264e91de0ee0ff3b02e555ea7abc118b46e0c2c202879",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/08.txt",
+    "messages": [
+      90,
+      91
+    ],
+    "sha256": "07c66c93f3a6c85bcc7286093144a3f14f97199c86aa74b8688c02cc8dada26f",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/09.txt",
+    "messages": [
+      90,
+      91
+    ],
+    "sha256": "2317be1b77689a00c669d05b4252a45b217a0015111757effc9fc15a0e5f01fe",
+    "complete_sketch": false
+  },
+  {
+    "file": "archive/code-blocks/10.txt",
+    "messages": [
+      94
+    ],
+    "sha256": "f16e297175b792fdd1a3f860f935f1f8d236cecfa429af3586c8938489c64d2e",
+    "complete_sketch": true
+  }
+]

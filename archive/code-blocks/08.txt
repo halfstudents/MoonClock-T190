@@ -1,0 +1,41 @@
+void animateMoonClock() {
+  unsigned long now = millis();
+
+  // Twinkle stars every 400 milliseconds
+  if (now - lastStarUpdate >= 400) {
+    lastStarUpdate = now;
+    starsBright = !starsBright;
+
+    uint16_t starColour =
+        starsBright ? ST77XX_WHITE : 0x4208;
+
+    tft.drawPixel(15, 52, starColour);
+    tft.drawPixel(43, 89, starColour);
+    tft.drawPixel(148, 43, starColour);
+    tft.drawPixel(155, 113, starColour);
+    tft.drawPixel(24, 193, starColour);
+    tft.drawPixel(132, 208, starColour);
+    tft.drawPixel(62, 225, starColour);
+    tft.drawPixel(111, 77, starColour);
+    tft.drawPixel(8, 135, starColour);
+    tft.drawPixel(160, 247, starColour);
+  }
+
+  // Small orbiting indicator below the Moon
+  if (now - lastOrbitUpdate >= 80) {
+    lastOrbitUpdate = now;
+
+    // Erase the previous indicator
+    tft.fillCircle(85, 190, 3, BG);
+
+    orbitAngle = (orbitAngle + 5) % 360;
+
+    float a = orbitAngle * PI / 180.0;
+
+    int x = MOON_X + (int)(49 * cos(a));
+    int y = MOON_Y + (int)(49 * sin(a));
+
+    // Keep the indicator outside the lunar disc
+    tft.fillCircle(x, y, 2, 0xFFE0);
+  }
+}

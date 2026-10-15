@@ -1,0 +1,14 @@
+# Local credentials and editor/build outputs
+secrets.h
+secrets.local.h
+.env
+.env.*
+!.env.example
+build/
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+.DS_Store
+Thumbs.db
