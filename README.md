@@ -23,25 +23,6 @@ The latest sketch displays Wi-Fi-synchronized time, date, a shaded lunar disc, e
 
 No external image files or astronomy APIs are needed to draw the Moon. Install the required graphics libraries through Arduino IDE rather than copying third-party library code into this repository.
 
-## Upload this folder to GitHub
-
-1. Extract the ZIP.
-2. Create a new GitHub repository.
-3. Choose **Add file → Upload files** and upload the **contents** of `MoonClock-T190-GitHub` so this README appears at the repository root.
-4. Commit the files. Keep the Wi-Fi placeholders in the public copy.
-
-Alternatively, with Git installed, open a terminal inside the extracted folder and run:
-
-```bash
-git init
-git add .
-git commit -m "Add T190 Moon Clock source and reference material"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-Create the remote as an empty repository when using these commands. Replace the example username and repository name.
 
 ## Origin and reuse
 
